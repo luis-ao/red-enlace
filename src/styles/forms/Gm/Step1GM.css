@@ -1,0 +1,14 @@
+.gridStep1GM {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: 32% 32% 32%;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+@media screen and (max-width: 600px) {
+  
+  .gridStep1GM {
+    grid-template-columns: 100%;
+  }
+}

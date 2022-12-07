@@ -1,0 +1,138 @@
+:root {
+  --primary-color: #1d45c2;
+  --primary-color2: #5872c4;
+  --primary-color3: #1d46c214;
+
+  --secondary-color: #4aba60;
+  --secondary-color2: #1b8e5c;
+  --secondary-color3: #1da939;
+  --secondary-color4: #4aba6012;
+
+  --errorInput-color: #f30000;
+
+  --cards-color: #f5f7f9;
+  --text-color: #000000;
+  --text-color2: #565656;
+  --shadow-color: #6767678a;
+  --shadow-color2: #6767673c;
+  --off-color: #d1d1d1;
+  --off-color2: #858585;
+
+  --h1-size: 7em;
+  --h2-size: 6.6em;
+  --h3-size: 5.2em;
+  --h4-size: 3em;
+  --h5-size: 2.2em;
+  --h6-size: 1em;
+}
+
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 600;
+  text-align: center;
+}
+h2 {
+  font-size: 7rem;
+  font-weight: 600;
+  text-align: center;
+}
+h3 {
+  font-size: 6rem;
+  font-weight: 600;
+  text-align: center;
+}
+h4 {
+  font-size: 4.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+h5 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+h6 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+.displayNone {
+  display: none !important;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 1.9rem;
+}
+::-webkit-scrollbar-track {
+  background: radial-gradient(
+    circle,
+    rgba(71, 193, 50, 0) 0%,
+    rgba(25, 66, 193, 0.3034255938703606) 100%
+  );
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color2);
+  border-radius: 0.6rem;
+}
+
+@media screen and (max-width: 1700px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 6.2px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 3.8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 5px;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 5rem;
+  }
+  h4 {
+    font-size: 3.8rem;
+  }
+  h5 {
+    font-size: 2.4rem;
+  }
+}

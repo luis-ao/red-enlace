@@ -1,0 +1,27 @@
+.contratante {
+  display: flex;
+  width: 16%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+.moralFisica {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+@media screen and (max-width: 600px) {
+  .contratante {
+    width: 60%;
+  }
+
+  .moralFisica {
+    width: 100%;
+    justify-content: space-around;
+  }
+}

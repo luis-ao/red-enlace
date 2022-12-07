@@ -1,0 +1,12 @@
+.coberturaGM {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2rem;
+  overflow: hidden;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .coberturaGM {
+    grid-template-columns: 100%;
+  }
+}

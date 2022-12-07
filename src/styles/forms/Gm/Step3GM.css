@@ -1,0 +1,57 @@
+.formStep3GM {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  overflow: hidden;
+}
+.step3GM__money {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: flex-start;
+  gap: 0 2rem;
+  margin-bottom: 8rem;
+  align-items: flex-end;
+}
+.step3GM__moneyInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 72rem;
+  height: 7rem;
+}
+.step3GM__moneyInput_label {
+  font-size: 2.6rem;
+  font-style: italic;
+}
+.step3GM__moneyInput_label span {
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.step3GM__date {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .formStep3GM {
+    width: 86%;
+  }
+
+  .step3GM__money {
+    grid-template-columns: 100%;
+    margin-bottom: 4rem;
+  }
+  .step3GM__moneyInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 14rem;
+  }
+  .step3GM__date {
+    grid-template-columns: 100%;
+  }
+}

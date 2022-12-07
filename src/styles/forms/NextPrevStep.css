@@ -1,0 +1,22 @@
+.nextPrevContainer {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 32% 36% 32%;
+  padding: 0 2rem;
+  margin-bottom: 30rem;
+  margin-top: 6rem;
+}
+.iconPrev {
+  font-size: 8rem;
+  fill: var(--primary-color);
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+.iconPrev:hover {
+  fill: var(--secondary-color);
+  transform: scale(1.1);
+  transition: all ease 0.2s;
+}
